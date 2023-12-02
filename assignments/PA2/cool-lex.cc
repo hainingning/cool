@@ -1,6 +1,6 @@
-#line 2 "cool-lex.cc"
+#line 1 "cool-lex.cc"
 
-#line 4 "cool-lex.cc"
+#line 3 "cool-lex.cc"
 
 #define  YY_INT_ALIGNED short int
 
@@ -737,12 +737,12 @@ int should_terminate = 0;
 int in_nested_comment = 0;
 int string_const_length = 0;
 
-#line 741 "cool-lex.cc"
+#line 740 "cool-lex.cc"
 
 /*
  * Define names for regular expressions here.
  */
-#line 746 "cool-lex.cc"
+#line 745 "cool-lex.cc"
 
 #define INITIAL 0
 #define NESTED_COMMENT 1
@@ -1034,7 +1034,7 @@ YY_DECL
   * Keywords
   */
   
-#line 1038 "cool-lex.cc"
+#line 1037 "cool-lex.cc"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -1546,7 +1546,7 @@ YY_RULE_SETUP
 #line 347 "cool.flex"
 ECHO;
 	YY_BREAK
-#line 1550 "cool-lex.cc"
+#line 1549 "cool-lex.cc"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(SIMPLE_COMMENT):
 case YY_STATE_EOF(ESCAPE):
