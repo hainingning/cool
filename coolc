@@ -1,2 +1,2 @@
-#!/bin/csh -f
-./assignments/PA2/lexer $* | ./assignments/PA3/parser $* | ./assignments/PA4/semant $* | ./assignments/PA5/cgen $*
+#!/bin/bash
+~/document/compiler/cool/assignments/PA2/lexer $* | ~/document/compiler/cool/assignments/PA3/parser $* | ~/document/compiler/cool/assignments/PA4/semant $* | ~/document/compiler/cool/assignments/PA5/cgen $*
